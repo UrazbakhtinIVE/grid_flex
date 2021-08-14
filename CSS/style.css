@@ -1,0 +1,99 @@
+body{
+    background-color:rgb(253, 248, 241); 
+    font-family: "Champagne & Limousines";
+    font-size:23px;
+}
+
+
+
+@font-face {
+   
+    font-family: "MonteCarlo-Regular"; 
+    src: url("../fonts/MonteCarlo-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+    @font-face {
+   
+        font-family: "Champagne & Limousines"; 
+        src: url("../fonts/Champagne & Limousines.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal; 
+        } 
+    
+
+#link_logo{
+    font-family: "MonteCarlo-Regular";
+    font-size:24px;
+    margin-left: 16px;
+    padding-top: 16px;
+   
+}
+
+.container {
+    border: 2px double black; 
+    margin: 8px;
+    
+}
+
+
+
+a{
+    text-decoration: none; 
+    
+}
+
+ul{
+    display:flex;
+   
+  
+}
+li{
+    list-style-type: none; /* Убираем маркеры */
+    padding-right: 26px;
+    
+    
+}
+
+
+.content{
+    padding-top:30px;
+    display:flex;
+    justify-content:center;
+}
+
+#link_icon{
+    display:flex;
+   color:rgb(243, 43, 193);
+   justify-content:center;
+   
+  
+   /* border: 1px solid; */
+  
+}
+
+#link_icon:hover{
+    color:black;
+}
+
+
+
+
+
+#link_menu_img{
+    margin:26px;
+    padding-left: 50px;
+}
+
+
+.menu{
+    display:flex;
+    justify-content:start-end;
+    
+}
+
+.content{
+    display:flex;
+    width: 1200px;
+}

@@ -1,0 +1,33 @@
+body{
+    display:flex;
+    flex-direction:column;
+    margin:0;
+}
+
+.main{
+    display: flex;
+    flex:1;
+}
+header,footer{
+    background-color:dimgray;
+    height:20vh;
+}
+nav,aside{
+    background-color:darkolivegreen;
+    height:20vh;
+}
+article{
+    flex: 1;
+}
+
+article{
+    background-color:cornflowerblue;
+}
+
+nav{
+    order:-1;
+}
+
+footer{
+    background-color:dimgray;
+}
